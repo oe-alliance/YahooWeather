@@ -314,9 +314,8 @@ class MeteoMain(Screen):
                 self['lab26'].setText(_('Region    :'))
                 txt = str(weather_data['location']['region'])
                 self['lab26b'].setText(txt)
-                self['lab27'].setText(_('Country   :'))
                 txt = str(weather_data['location']['country'])
-                self['lab27b'].setText(txt)
+                self['lab27'].setText(_('Country   :') + ' ' + (txt))
                 myicon = '/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/1color.png'
                 png = loadPic(myicon, 250, 30, 0, 0, 0, 0)
                 self['lab28'].instance.setPixmap(png)

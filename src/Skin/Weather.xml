@@ -1,6 +1,5 @@
 <screen name="YWeather" position="center,center" size="1280,720" title="YWeather" flags="wfNoBorder" backgroundColor="#ffffffff">
 	<ePixmap position="0,0" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/dafaultHD.png" alphatest="blend" transparent="1" />
-	<!--ePixmap position="0,0" size="1280,720" pixmap="TechniHD/dafaultHD.png" alphatest="blend" transparent="1" /-->
 	<ePixmap position="50,32" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/yh.png" alphatest="blend" transparent="1" />
 
 	<!-- Data Provider -->
@@ -190,8 +189,7 @@
 	<widget name="lab26b" position="165,556" halign="left" size="330,22" zPosition="1" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1" />
 
 	<!-- Country -->
-	<widget name="lab27" position="65,581" halign="left" size="100,22" zPosition="1" font="Regular;18" foregroundColor="#8F8F8F" backgroundColor="black" transparent="1" />
-	<widget name="lab27b" position="165,581" halign="left" size="330,22" zPosition="1" font="Regular;18" foregroundColor="white" backgroundColor="black" transparent="1" />
+	<widget name="lab27" position="65,581" halign="left" size="430,22" zPosition="1" font="Regular;18" foregroundColor="#8F8F8F" backgroundColor="black" transparent="1" />
 
 	<!-- BoxSet ButtonColors -->
 	<ePixmap position="50,659" size="600,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/1colors.png" zPosition="2" alphatest="blend" />
