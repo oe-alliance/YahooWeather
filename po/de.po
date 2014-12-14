@@ -1,0 +1,235 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YahooWeather\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-12 13:50+0200\n"
+"PO-Revision-Date: 2014-12-14 13:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../src\n"
+
+msgid "Yahoo Weather"
+msgstr "Yahoo Wetter"
+
+msgid "From"
+msgstr "von"
+
+msgid "5 Day Weather Forecast"
+msgstr "5 Tage Wettervorhersage"
+
+msgid "Change city"
+msgstr "Suche Stadt"
+
+msgid "Yahoo Weather Location:"
+msgstr "Yahoo Wetter Ort:"
+
+msgid "Last Updated:"
+msgstr "Aktualisiert am"
+
+msgid "Sunny"
+msgstr "sonnig"
+
+msgid "Partly Cloudy"
+msgstr "teilweise bewölkt"
+
+msgid "PM Showers"
+msgstr "PM Regenschauer"
+
+msgid "AM Clouds/PM Sun"
+msgstr "AM wolkig/PM sonnig"
+
+msgid "Showers"
+msgstr "Regenschauer"
+
+msgid "Cloudy/Wind"
+msgstr "bewölkt/windig"
+
+msgid "Mostly Cloudy"
+msgstr "meist bewölkt"
+
+msgid "Cloudy"
+msgstr "bewölkt"
+
+msgid "Showers/Wind Early"
+msgstr "Regenschauer/windig"
+
+msgid "AM Showers/Wind"
+msgstr "AM Regenschauer/windig"
+
+msgid "AM Showers"
+msgstr "AM Regenschauer"
+
+msgid "Light Rain"
+msgstr "leichter Regen"
+
+msgid "Fair"
+msgstr "heiter"
+
+msgid "Light Rain/Wind"
+msgstr "leichter Regen/windig"
+
+msgid "Rain"
+msgstr "Regen"
+
+msgid "Mostly Sunny"
+msgstr "meist sonnig"
+
+msgid "Thunderstorms"
+msgstr "Gewitter"
+
+msgid "AM Thunderstorms"
+msgstr "AM Gewitter"
+
+msgid "PM Thunderstorms"
+msgstr "PM Gewitter"
+
+msgid "Scattered Thunderstorms"
+msgstr "vereinzelt Gewitter"
+
+msgid "Rain/Snow"
+msgstr "Regen/Schnee"
+
+msgid "Snow"
+msgstr "Schnee"
+
+msgid "Light Snow"
+msgstr "leichter Schneefall"
+
+msgid "AM Light Snow"
+msgstr "AM leichter Schneefall"
+
+msgid "PM Light Snow"
+msgstr "PM leichter Schneefall"
+
+msgid "Snow Showers"
+msgstr "Schneeschauer"
+
+msgid "PM Snow Showers"
+msgstr "PM Schneeschauer"
+
+msgid "AM Snow Showers"
+msgstr "AM Schneeschauer"
+
+msgid "Fog"
+msgstr "Nebel"
+
+msgid "Mostly Clear"
+msgstr "meist klar"
+
+msgid "Clear"
+msgstr "klar"
+
+msgid "Haze"
+msgstr "Dunst"
+
+msgid "Yahoo Weather City"
+msgstr "Yahoo Wetter Stadt"
+
+msgid "Humidity   :"
+msgstr "Luftfeuchte:"
+
+msgid "Pressure   :"
+msgstr "Druck      :"
+
+msgid "Visibility :"
+msgstr "Sichtweite :"
+
+msgid "Sunrise    :"
+msgstr "S.Aufgang  :"
+
+msgid "Sunset     :"
+msgstr "S.Untergang:"
+
+msgid "Latitude :"
+msgstr "Br-Grad  :"
+
+msgid "Longitude :"
+msgstr "Lä-Grad   :"
+
+msgid "Country   :"
+msgstr "Land       :"
+
+msgid "North"
+msgstr "Norden"
+
+msgid "NEast"
+msgstr "Nordost"
+
+msgid "East"
+msgstr "Osten"
+
+msgid "SEast"
+msgstr "Südosten"
+
+msgid "South"
+msgstr "Süden"
+
+msgid "West"
+msgstr "Westen"
+
+msgid "SWest"
+msgstr "Südwest"
+
+msgid "NWest"
+msgstr "Nordwest"
+
+msgid "Unknown"
+msgstr "unbekannt"
+
+msgid "Light Drizzle"
+msgstr "leichter Nieselregen"
+
+msgid "Drizzle"
+msgstr "Nieselregen"
+
+msgid "PM Thunderstorms/Wind"
+msgstr "PM Gewitter/Wind"
+
+msgid "AM Thunderstorms/Wind"
+msgstr "AM Gewitter/Wind"
+
+msgid "Sunny/Wind"
+msgstr "sonnig/Wind"
+
+msgid "Fair/Windy"
+msgstr "heiter/windig"
+
+msgid "PM Light Snow/Wind"
+msgstr "PM leichter Schneefall/Wind"
+
+msgid "AM Light Snow/Wind"
+msgstr "AM leichter Schneefall/Wind"
+
+msgid "Snow Showers/Wind"
+msgstr "Schneeschauer/Wind"
+
+msgid "Rain/Snow Early"
+msgstr "frühzeitig Schnee/Regen"
+
+msgid "PM Rain/Snow"
+msgstr "PM Regen/Schnee"
+
+msgid "AM Rain/Snow"
+msgstr "AM Regen/Schnee"
+
+msgid "PM Rain/Snow Showers"
+msgstr "PM Regen/Schneeschauer"
+
+msgid "AM Rain/Snow Showers"
+msgstr "AM Regen/Schneeschauer"
+
+msgid "Few Showers"
+msgstr "wenige Regenschauer"
+
+msgid "Exit"
+msgstr "beenden"
+
+msgid "Save"
+msgstr "Speichern"
