@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YahooWeather\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-12 13:50+0200\n"
+"PO-Revision-Date: 2014-12-14 16:24+0100\n"
+"Last-Translator: mauro <fasoli.mauro@alice.it>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ../src\n"
+
+msgid "5 Day Weather Forecast"
+msgstr "5 Giorni di previsioni meteo"
+
+msgid "AM Clouds/PM Sun"
+msgstr "AM Nuvole/PM Sole"
+
+msgid "AM Light Snow"
+msgstr "AM Deboli nevicate"
+
+msgid "AM Rain"
+msgstr "AM Pioggia"
+
+msgid "AM Showers"
+msgstr "AM Acquazzoni"
+
+msgid "AM Showers/Wind"
+msgstr "AM Acquazzoni/Vento"
+
+msgid "AM Snow Showers"
+msgstr "AM Nevicate"
+
+msgid "AM Thunderstorms"
+msgstr "AM Temporali"
+
+msgid "Change city"
+msgstr "Cambia città"
+
+msgid "Clear"
+msgstr "Chiaro"
+
+msgid "Cloudy"
+msgstr "Nuvoloso"
+
+msgid "Cloudy/Wind"
+msgstr "Nuvoloso/Vento"
+
+msgid "Country   :"
+msgstr "Nazione   :"
+
+msgid "East"
+msgstr "Est"
+
+msgid "Fair"
+msgstr "Buono"
+
+msgid "Fog"
+msgstr "Nebbia"
+
+msgid "From"
+msgstr "da"
+
+msgid "Haze"
+msgstr "Foschia"
+
+msgid "Humidity   :"
+msgstr "Umidità    :"
+
+msgid "Last Updated:"
+msgstr "Aggiornato il  :"
+
+msgid "Latitude :"
+msgstr "Latitudine  :"
+
+msgid "Light Rain"
+msgstr "Deboli pioggie"
+
+msgid "Light Rain/Wind"
+msgstr "Deboli pioggie/Vento"
+
+msgid "Light Snow"
+msgstr "Deboli nevicate"
+
+msgid "Longitude :"
+msgstr "longitudine   :"
+
+msgid "Mostly Clear"
+msgstr "Poco sereno"
+
+msgid "Mostly Cloudy"
+msgstr "Poco nuvoloso"
+
+msgid "Mostly Sunny"
+msgstr "poco soleggiato"
+
+msgid "NEast"
+msgstr "NordEst"
+
+msgid "NWest"
+msgstr "NordOvest"
+
+msgid "North"
+msgstr "Nord"
+
+msgid "PM Light Snow"
+msgstr "PM Deboli nevicate"
+
+msgid "PM Showers"
+msgstr "PM Rovesci"
+
+msgid "PM Snow Showers"
+msgstr "PM Nevicate"
+
+msgid "PM Thunderstorms"
+msgstr "PM Temporali"
+
+msgid "Partly Cloudy"
+msgstr "Parzialmente nuvoloso"
+
+msgid "Pressure   :"
+msgstr "pressione  :"
+
+msgid "Rain"
+msgstr "Pioggia"
+
+msgid "Rain/Snow"
+msgstr "Pioggia/Neve"
+
+msgid "Region   :"
+msgstr "Regione   :"
+
+msgid "SEast"
+msgstr "SudEst"
+
+msgid "SWest"
+msgstr "SudOvest"
+
+msgid "Scattered Thunderstorms"
+msgstr "Temporali sparsi"
+
+msgid "Showers"
+msgstr "Aquazzoni"
+
+msgid "Showers/Early"
+msgstr "Possibili/acquazzoni"
+
+msgid "Showers/Wind"
+msgstr "Acquazzoni/Vento"
+
+msgid "Snow"
+msgstr "Neve"
+
+msgid "Snow Showers"
+msgstr "Nevicate"
+
+msgid "South"
+msgstr "Sud"
+
+msgid "Sunny"
+msgstr "Soleggiato"
+
+msgid "Sunrise    :"
+msgstr "Alba       :"
+
+msgid "Sunset     :"
+msgstr "tramonto   :"
+
+msgid "Thunderstorms"
+msgstr "Temporali"
+
+msgid "Visibility :"
+msgstr "Visibilità :"
+
+msgid "West"
+msgstr "Ovest"
+
+msgid "Yahoo Weather"
+msgstr "Yahoo Meteo"
+
+msgid "Yahoo Weather City"
+msgstr "Yahoo Meteo Città"
