@@ -43,7 +43,7 @@ msgid "PM Showers"
 msgstr "PM Regenschauer"
 
 msgid "AM Clouds/PM Sun"
-msgstr "AM wolkig/PM sonnig"
+msgstr "morgens wolkig/abends sonnig"
 
 msgid "Showers"
 msgstr "Regenschauer"
@@ -61,13 +61,16 @@ msgid "Showers/Wind Early"
 msgstr "Regenschauer/windig"
 
 msgid "AM Showers/Wind"
-msgstr "AM Regenschauer/windig"
+msgstr "morgens Regenschauer/windig"
 
 msgid "AM Showers"
-msgstr "AM Regenschauer"
+msgstr "morgens Regenschauer"
 
 msgid "Light Rain"
 msgstr "leichter Regen"
+
+msgid "Heavy Rain"
+msgstr "starker Regen"
 
 msgid "Fair"
 msgstr "heiter"
@@ -85,10 +88,10 @@ msgid "Thunderstorms"
 msgstr "Gewitter"
 
 msgid "AM Thunderstorms"
-msgstr "AM Gewitter"
+msgstr "morgens Gewitter"
 
 msgid "PM Thunderstorms"
-msgstr "PM Gewitter"
+msgstr "abends Gewitter"
 
 msgid "Scattered Thunderstorms"
 msgstr "vereinzelt Gewitter"
@@ -103,19 +106,19 @@ msgid "Light Snow"
 msgstr "leichter Schneefall"
 
 msgid "AM Light Snow"
-msgstr "AM leichter Schneefall"
+msgstr "morgens leichter Schneefall"
 
 msgid "PM Light Snow"
-msgstr "PM leichter Schneefall"
+msgstr "abends leichter Schneefall"
 
 msgid "Snow Showers"
 msgstr "Schneeschauer"
 
 msgid "PM Snow Showers"
-msgstr "PM Schneeschauer"
+msgstr "abends Schneeschauer"
 
 msgid "AM Snow Showers"
-msgstr "AM Schneeschauer"
+msgstr "morgens Schneeschauer"
 
 msgid "Fog"
 msgstr "Nebel"
@@ -190,10 +193,10 @@ msgid "Drizzle"
 msgstr "Nieselregen"
 
 msgid "PM Thunderstorms/Wind"
-msgstr "PM Gewitter/Wind"
+msgstr "abends Gewitter/Wind"
 
 msgid "AM Thunderstorms/Wind"
-msgstr "AM Gewitter/Wind"
+msgstr "morgens Gewitter/Wind"
 
 msgid "Sunny/Wind"
 msgstr "sonnig/Wind"
@@ -202,10 +205,10 @@ msgid "Fair/Windy"
 msgstr "heiter/windig"
 
 msgid "PM Light Snow/Wind"
-msgstr "PM leichter Schneefall/Wind"
+msgstr "abends leichter Schneefall/Wind"
 
 msgid "AM Light Snow/Wind"
-msgstr "AM leichter Schneefall/Wind"
+msgstr "morgens leichter Schneefall/Wind"
 
 msgid "Snow Showers/Wind"
 msgstr "Schneeschauer/Wind"
@@ -214,16 +217,19 @@ msgid "Rain/Snow Early"
 msgstr "frühzeitig Schnee/Regen"
 
 msgid "PM Rain/Snow"
-msgstr "PM Regen/Schnee"
+msgstr "abends Regen/Schnee"
 
 msgid "AM Rain/Snow"
-msgstr "AM Regen/Schnee"
+msgstr "morgens Regen/Schnee"
 
 msgid "PM Rain/Snow Showers"
-msgstr "PM Regen/Schneeschauer"
+msgstr "abends Regen/Schneeschauer"
 
 msgid "AM Rain/Snow Showers"
-msgstr "AM Regen/Schneeschauer"
+msgstr "morgens Regen/Schneeschauer"
+
+msgid "AM Rain"
+msgstr "morgens Regen"
 
 msgid "Few Showers"
 msgstr "wenige Regenschauer"
