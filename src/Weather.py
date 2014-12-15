@@ -12,19 +12,12 @@ from Tools.Directories import fileExists
 from urllib import quote
 from urllib2 import Request, urlopen, URLError, HTTPError
 from xml.dom import minidom, Node
-from enigma import loadPic, eTimer, gFont, addFont
+from enigma import loadPic, eTimer, gFont
 
 try:
     from Search_Id import *	
 except:
     pass
-	
-def FontWeather(file, name, scale, replacement):
-	try:
-		addFont(file, name, scale, replacement)
-	except Exception, ex:
-		addFont(file, name, scale, replacement, 0)				
-FontWeather("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Font/weather.ttf", "weather", 100, False)
 	
 import gettext
 def _(txt):
@@ -36,6 +29,8 @@ def _(txt):
 class MeteoMain(Screen):
  
     def __init__(self, session):
+        from enigma import addFont
+        addFont('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Font/weather.ttf', 'weather', 87, 1)
         path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/Weather.xml" 
         with open(path, "r") as f:
 		self.skin = f.read()
