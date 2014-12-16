@@ -1,4 +1,4 @@
-<screen name="YWeather" position="center,center" size="1280,720" title="YWeather" flags="wfNoBorder" backgroundColor="#ffffffff">
+<screen name="YahooWeather" position="center,center" size="1280,720" title="Yahoo Weather" flags="wfNoBorder" backgroundColor="#ffffffff">
 	<ePixmap position="0,0" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/dafaultHD.png" alphatest="blend" transparent="1" />
 	<ePixmap position="50,32" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/yh.png" alphatest="blend" transparent="1" />
 

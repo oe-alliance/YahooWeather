@@ -35,7 +35,8 @@ class MeteoMain(Screen):
         with open(path, "r") as f:
 		self.skin = f.read()
 		f.close() 	         	
-        Screen.__init__(self, session)		
+        Screen.__init__(self, session)
+        self.skinName = ["YahooWeather"]		
         self['lab1'] = Label(_('Retrieving data ...'))
         self['5day'] = Label(_('5 Day Weather Forecast'))
         self['lab1b'] = Label('')

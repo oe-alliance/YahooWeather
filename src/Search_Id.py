@@ -3,12 +3,10 @@ import urllib2
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Components.ActionMap import ActionMap
 from enigma import eTimer
-#from Plugins.Plugin import PluginDescriptor
 from Screens.Screen import Screen
 from Components.Label import Label
 from Components.MenuList import MenuList
 import os
-#from Weather import *
 from . import _
 
 def uniq(inlist): 
@@ -63,7 +61,8 @@ class WeatherList(Screen):
             f = open(skin, "r")
             self.skin = f.read()
             f.close()			
-        Screen.__init__(self, session)	
+        Screen.__init__(self, session)
+        self.skinName = ["YahooWeatherList"]	
         self["Key_Red"] = Label(_("Exit"))		
         self["Key_Green"] = Label(_("Save"))
         self['titleheader'] = Label(_('Yahoo Weather')) 		

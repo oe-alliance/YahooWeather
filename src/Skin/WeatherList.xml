@@ -1,4 +1,4 @@
-<screen name="WeatherCity" position="center,center" size="1280,720" title="WeatherCity" flags="wfNoBorder" backgroundColor="#ffffffff">
+<screen name="YahooWeatherList" position="center,center" size="1280,720" title="Yahoo Weather list" flags="wfNoBorder" backgroundColor="#ffffffff">
 	<widget name="titleheader" position="333,33" size="550,30" zPosition="1" font="Regular;24" foregroundColor="#ffffff" backgroundColor="#000000" halign="center" valign="top" transparent="1" />
         <ePixmap position="50,32" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/yh.png" alphatest="blend" transparent="1" />
         <ePixmap position="0,0" size="1280,720" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/searchmenu.png" alphatest="blend" transparent="1" zPosition="-1" />
