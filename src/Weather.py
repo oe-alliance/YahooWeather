@@ -397,10 +397,14 @@ class MeteoMain(Screen):
             return _('Showers Early')
         elif name == 'AM Showers/Wind':
             return _('AM Showers/Wind')
+        elif name == 'PM Showers/Wind':
+            return _('PM Showers/Wind')
         elif name == 'AM Showers':
             return _('AM Showers')
         elif name == 'Light Rain':
             return _('Light Rain')
+        elif name == 'Light Rain Late':
+            return _('Light Rain Late')
         elif name == 'PM Light Rain':
             return _('PM Light Rain')
         elif name == 'AM Light Rain':
@@ -429,6 +433,8 @@ class MeteoMain(Screen):
             return _('Snow')
         elif name == 'Fog':
             return _('Fog')
+        elif name == 'Foggy':
+            return _('Foggy')
         elif name == 'Mostly Clear':
             return _('Mostly Clear')
         elif name == 'Haze':
@@ -445,7 +451,6 @@ class MeteoMain(Screen):
             return _('AM Snow Showers')
         elif name == 'PM Snow Showers':
             return _('PM Snow Showers')
-        ########################################
         elif name == 'Unknown':
             return _('Unknown')
         elif name == 'Light Drizzle':
