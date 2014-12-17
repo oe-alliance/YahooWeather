@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: YahooWeather\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-12 13:50+0200\n"
-"PO-Revision-Date: 2014-12-14 13:05+0100\n"
+"PO-Revision-Date: 2014-12-17 18:55+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -37,7 +37,7 @@ msgid "Sunny"
 msgstr "sonnig"
 
 msgid "Partly Cloudy"
-msgstr "teilweise bewölkt"
+msgstr "teilweise bewÃ¶lkt"
 
 msgid "PM Showers"
 msgstr "PM Regenschauer"
@@ -49,13 +49,13 @@ msgid "Showers"
 msgstr "Regenschauer"
 
 msgid "Cloudy/Wind"
-msgstr "bewölkt/windig"
+msgstr "bewÃ¶lkt/windig"
 
 msgid "Mostly Cloudy"
-msgstr "meist bewölkt"
+msgstr "meist bewÃ¶lkt"
 
 msgid "Cloudy"
-msgstr "bewölkt"
+msgstr "bewÃ¶lkt"
 
 msgid "Showers/Wind Early"
 msgstr "Regenschauer/windig"
@@ -123,6 +123,9 @@ msgstr "morgens Schneeschauer"
 msgid "Fog"
 msgstr "Nebel"
 
+msgid "Foggy"
+msgstr "neblig"
+
 msgid "Mostly Clear"
 msgstr "meist klar"
 
@@ -136,16 +139,16 @@ msgid "Yahoo Weather City"
 msgstr "Yahoo Wetter Stadt"
 
 msgid "Humidity   :"
-msgstr "Luftfeuchte:"
+msgstr "Luftfeuchte  :"
 
 msgid "Pressure   :"
-msgstr "Druck      :"
+msgstr "Druck         :"
 
 msgid "Visibility :"
-msgstr "Sichtweite :"
+msgstr "Sichtweite   :"
 
 msgid "Sunrise    :"
-msgstr "S.Aufgang  :"
+msgstr "S.Aufgang   :"
 
 msgid "Sunset     :"
 msgstr "S.Untergang:"
@@ -154,10 +157,10 @@ msgid "Latitude :"
 msgstr "Br-Grad  :"
 
 msgid "Longitude :"
-msgstr "Lä-Grad   :"
+msgstr "LÃ¤-Grad   :"
 
 msgid "Country   :"
-msgstr "Land       :"
+msgstr "Land        :"
 
 msgid "North"
 msgstr "Norden"
@@ -169,16 +172,16 @@ msgid "East"
 msgstr "Osten"
 
 msgid "SEast"
-msgstr "Südosten"
+msgstr "SÃ¼dosten"
 
 msgid "South"
-msgstr "Süden"
+msgstr "SÃ¼den"
 
 msgid "West"
 msgstr "Westen"
 
 msgid "SWest"
-msgstr "Südwest"
+msgstr "SÃ¼dwest"
 
 msgid "NWest"
 msgstr "Nordwest"
@@ -214,7 +217,7 @@ msgid "Snow Showers/Wind"
 msgstr "Schneeschauer/Wind"
 
 msgid "Rain/Snow Early"
-msgstr "frühzeitig Schnee/Regen"
+msgstr "frÃ¼hzeitig Schnee/Regen"
 
 msgid "PM Rain/Snow"
 msgstr "abends Regen/Schnee"
@@ -233,6 +236,12 @@ msgstr "morgens Regen"
 
 msgid "Few Showers"
 msgstr "wenige Regenschauer"
+
+msgid "PM Showers/Wind"
+msgstr "abends Regenschauer/windig"
+
+msgid "Light Rain Late"
+msgstr "leichter Regen/spÃ¤ter"
 
 msgid "Exit"
 msgstr "beenden"
