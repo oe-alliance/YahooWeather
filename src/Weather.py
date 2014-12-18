@@ -485,6 +485,18 @@ class MeteoMain(Screen):
             return _('AM Rain/Snow Showers')
         elif name == 'AM Rain':
             return _('AM Rain')
+        elif name == 'PM Rain':
+            return _('PM Rain')
+        elif name == 'AM Rain/Wind':
+            return _('AM Rain/Wind')
+        elif name == 'PM Rain/Wind':
+            return _('PM Rain/Wind')
+        elif name == 'AM Light Rain/Wind':
+            return _('AM Light Rain/Wind')
+        elif name == 'PM Light Rain/Wind':
+            return _('PM Light Rain/Wind')
+        elif name == 'Rain Early':
+            return _('Rain Early')
         elif name == 'Few Showers':
             return _('Few Showers')
         else:
