@@ -65,7 +65,7 @@
 	<widget name="lab17" position="680,88" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
 
 	<!-- ForeCast 1Day Day -->
-	<widget name="lab13" position="765,78" halign="left" size="301,28" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
+	<widget name="lab13" position="765,78" halign="left" size="301,32" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 1Day Description -->
 	<widget name="lab16" position="765,108" halign="left" size="448,26" zPosition="1" font="weather;24" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
@@ -88,7 +88,7 @@
 	<widget name="lab22" position="680,197" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
 
 	<!-- ForeCast 2Day Day -->
-	<widget name="lab18" position="765,187" halign="left" size="301,28" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
+	<widget name="lab18" position="765,187" halign="left" size="301,32" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 2Day Description -->
 	<widget name="lab21" position="765,217" halign="left" size="448,26" zPosition="1" font="weather;24" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
@@ -111,7 +111,7 @@
 	<widget name="3lab22" position="680,306" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
 
 	<!-- ForeCast 3Day Day -->
-	<widget name="3lab18" position="765,296" halign="left" size="301,28" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
+	<widget name="3lab18" position="765,296" halign="left" size="301,32" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 3Day Description -->
 	<widget name="3lab21" position="765,327" halign="left" size="448,26" zPosition="1" font="weather;24" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
@@ -134,7 +134,7 @@
 	<widget name="4lab22" position="680,413" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
 
 	<!-- ForeCast 4Day Day -->
-	<widget name="4lab18" position="765,403" halign="left" size="301,28" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
+	<widget name="4lab18" position="765,403" halign="left" size="301,32" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
         
         <!-- ForeCast 4Day Description -->
 	<widget name="4lab21" position="765,433" halign="left" size="448,26" zPosition="1" font="weather;24" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
@@ -157,7 +157,7 @@
 	<widget name="5lab22" position="680,519" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
 
 	<!-- ForeCast 5Day Day -->
-	<widget name="5lab18" position="765,509" halign="left" size="301,28" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
+	<widget name="5lab18" position="765,509" halign="left" size="301,32" zPosition="1" font="weather;30" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />
         
         <!-- ForeCast 5Day Description -->
 	<widget name="5lab21" position="765,539" halign="left" size="448,26" zPosition="1" font="weather;24" foregroundColor="#00e5b243" backgroundColor="#000000" transparent="1" />

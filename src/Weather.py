@@ -13,6 +13,10 @@ from urllib import quote
 from urllib2 import Request, urlopen, URLError, HTTPError
 from xml.dom import minidom, Node
 from enigma import loadPic, eTimer, gFont
+from Components.config import config, ConfigSubsection, ConfigYesNo
+
+config.plugins.YahooWeather = ConfigSubsection()
+config.plugins.YahooWeather.compactskin = ConfigYesNo(default=False)
 
 try:
     from Search_Id import *	
@@ -31,10 +35,16 @@ class MeteoMain(Screen):
     def __init__(self, session):
         from enigma import addFont
         addFont('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Font/weather.ttf', 'weather', 87, 1)
-        path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/Weather.xml" 
-        with open(path, "r") as f:
-		self.skin = f.read()
-		f.close() 	         	
+        if config.plugins.YahooWeather.compactskin.value == True:
+                path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/WeatherCompact.xml" 
+                with open(path, "r") as f:
+		        self.skin = f.read()
+		        f.close()
+        else:
+                path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/Weather.xml" 
+                with open(path, "r") as f:
+		        self.skin = f.read()
+		        f.close() 	         	
         Screen.__init__(self, session)
         self.skinName = ["YahooWeather"]		
         self['lab1'] = Label(_('Retrieving data ...'))
@@ -114,8 +124,10 @@ class MeteoMain(Screen):
         self['daydate2'] = Label('')
         self['daydate3'] = Label('')
         self['daydate4'] = Label('')
-        self['actions'] = ActionMap(['WizardActions', 'ColorActions'], {
+        self['actions'] = ActionMap(['WizardActions', 'ColorActions', 'MenuActions'], {
          'red': self.key_red,
+         'menu': self.key_red,
+         'blue': self.key_blue,
          'back': self.close,
          'ok': self.close})
         self.activityTimer = eTimer()
@@ -212,8 +224,7 @@ class MeteoMain(Screen):
                 self['lab11b'].setText(txt)
                 self['lab12'].setText(_('Wind       :'))
                 direction = self.wind_direction(str(weather_data['wind']['direction']))
-                #txt = _('From')+' %s at %s kmh' % (direction, str(weather_data['wind']['speed']))
-                txt = _('From')+' %s : %s kmh' % (direction, str(weather_data['wind']['speed']))
+                txt = _('Wind') + ' ' + _('From')+' %s : %s kmh' % (direction, str(weather_data['wind']['speed']))
                 self['lab12b'].setText(txt)
                 txt = self.extend_day(str(weather_data['forecasts'][0]['day']))
                 self['lab13'].setText(txt)
@@ -485,18 +496,6 @@ class MeteoMain(Screen):
             return _('AM Rain/Snow Showers')
         elif name == 'AM Rain':
             return _('AM Rain')
-        elif name == 'PM Rain':
-            return _('PM Rain')
-        elif name == 'AM Rain/Wind':
-            return _('AM Rain/Wind')
-        elif name == 'PM Rain/Wind':
-            return _('PM Rain/Wind')
-        elif name == 'AM Light Rain/Wind':
-            return _('AM Light Rain/Wind')
-        elif name == 'PM Light Rain/Wind':
-            return _('PM Light Rain/Wind')
-        elif name == 'Rain Early':
-            return _('Rain Early')
         elif name == 'Few Showers':
             return _('Few Showers')
         else:
@@ -530,3 +529,12 @@ class MeteoMain(Screen):
 
     def key_red(self):
         self.session.open(WeatherSearch)
+        
+    def key_blue(self):
+        if config.plugins.YahooWeather.compactskin.value == True:
+            config.plugins.YahooWeather.compactskin.setValue(False)
+            self.session.open(MessageBox, _('Yahoo Weather') + _('\nSkin Compact: off'), MessageBox.TYPE_INFO, timeout=5)
+        elif config.plugins.YahooWeather.compactskin.value == False:
+            config.plugins.YahooWeather.compactskin.setValue(True)
+            self.session.open(MessageBox, _('Yahoo Weather') + _('\nSkin Compact: on'), MessageBox.TYPE_INFO, timeout=5)
+        config.plugins.YahooWeather.compactskin.save()
