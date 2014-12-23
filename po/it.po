@@ -18,6 +18,9 @@ msgstr ""
 msgid "5 Day Weather Forecast"
 msgstr "5 Giorni di previsioni meteo"
 
+msgid "Wind"
+msgstr "Vento"
+
 msgid "AM Clouds/PM Sun"
 msgstr "AM Nuvole/PM Sole"
 
