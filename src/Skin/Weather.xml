@@ -192,6 +192,7 @@
 	<widget name="lab27" position="65,581" halign="left" size="430,22" zPosition="1" font="Regular;18" foregroundColor="#8F8F8F" backgroundColor="black" transparent="1" />
 
 	<!-- BoxSet ButtonColors -->
-	<ePixmap position="50,659" size="600,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/1colors.png" zPosition="2" alphatest="blend" />
-	<widget name="lab28b" position="100,666" halign="left" size="330,24" zPosition="1" font="Regular;19" foregroundColor="white" backgroundColor="black" transparent="1" />
+	<ePixmap position="50,659" size="1200,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/2colors.png" zPosition="2" alphatest="blend" />
+	<widget position="100,666" size="210,25" name="Key_Red" font="Regular;20" halign="left" backgroundColor="black" zPosition="3" transparent="1" />
+	<widget position="335,666" size="210,25" name="Key_Green" font="Regular;20" halign="left" backgroundColor="black" zPosition="3" transparent="1" />
 </screen>

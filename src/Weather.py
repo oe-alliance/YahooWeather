@@ -16,7 +16,7 @@ from enigma import loadPic, eTimer, gFont
 from Components.config import config, ConfigSubsection, ConfigYesNo
 
 config.plugins.YahooWeather = ConfigSubsection()
-config.plugins.YahooWeather.compactskin = ConfigYesNo(default=False)
+config.plugins.YahooWeather.compactskin = ConfigYesNo(default=True)
 
 try:
     from Search_Id import *	
@@ -93,7 +93,8 @@ class MeteoMain(Screen):
         self['lab27b'] = Label('')
         self['lab28'] = Pixmap()
         self['lab28a'] = Label('')
-        self['lab28b'] = Label('')
+        self["Key_Red"] = Label(_("Change city"))
+        self["Key_Green"] = Label(_("Change skin"))
         #############test 3day#####
         self['3lab22'] = Pixmap()
         self['3lab19'] = Label('')
@@ -127,7 +128,7 @@ class MeteoMain(Screen):
         self['actions'] = ActionMap(['WizardActions', 'ColorActions', 'MenuActions'], {
          'red': self.key_red,
          'menu': self.key_red,
-         'blue': self.key_blue,
+         'green': self.key_green,
          'back': self.close,
          'ok': self.close})
         self.activityTimer = eTimer()
@@ -137,7 +138,7 @@ class MeteoMain(Screen):
         self.bhv = 2
 
     def startShow(self):
-        self.activityTimer.start(10)
+        self.activityTimer.start(0, False)
 
     def startConnection(self):
         self.activityTimer.stop()
@@ -327,7 +328,6 @@ class MeteoMain(Screen):
                 png = loadPic(myicon, 250, 30, 0, 0, 0, 0)
                 self['lab28'].instance.setPixmap(png)
                 self['lab28a'].setText(':')
-                self['lab28b'].setText(_('Change city'))
             else:
                 maintext = 'Error getting XML document!'
 
@@ -530,7 +530,7 @@ class MeteoMain(Screen):
     def key_red(self):
         self.session.open(WeatherSearch)
         
-    def key_blue(self):
+    def key_green(self):
         if config.plugins.YahooWeather.compactskin.value == True:
             config.plugins.YahooWeather.compactskin.setValue(False)
             self.session.open(MessageBox, _('Yahoo Weather') + _('\nSkin Compact: off'), MessageBox.TYPE_INFO, timeout=5)

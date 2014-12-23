@@ -56,7 +56,7 @@
 	<widget name="lab18" shadowColor="#00000000" shadowOffset="3,2" position="38,331" halign="left" size="130,23" zPosition="1" font="weather;21" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 2Day Description -->
-	<widget name="lab21" position="38,370" halign="left" size="233,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="lab21" position="38,365" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 2Day Temp Heigh -->
 	
@@ -78,7 +78,7 @@
 	<widget name="3lab18" position="38,409" shadowColor="#00000000" shadowOffset="3,2" halign="left" size="130,23" zPosition="1" font="weather;21" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 3Day Description -->
-	<widget name="3lab21" position="38,448" halign="left" size="233,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="3lab21" position="38,443" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 3Day Temp Heigh -->
 	
@@ -99,7 +99,7 @@
 	<widget name="4lab18" position="38,489" shadowColor="#00000000" shadowOffset="3,2" halign="left" size="130,23" zPosition="1" font="weather;21" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
         
         <!-- ForeCast 4Day Description -->
-	<widget name="4lab21" position="38,528" halign="left" size="233,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="4lab21" position="38,523" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 4Day Temp Heigh -->
 	
@@ -119,7 +119,7 @@
 	<widget name="5lab18" position="38,570" shadowColor="#00000000" shadowOffset="3,2" halign="left" size="130,23" zPosition="1" font="weather;21" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
         
         <!-- ForeCast 5Day Description -->
-	<widget name="5lab21" position="38,609" halign="left" size="233,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="5lab21" position="38,604" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 5Day Temp Heigh -->
 	
@@ -151,6 +151,10 @@
 	<widget name="lab27" position="671,677" size="430,22" shadowColor="#00000000" shadowOffset="2,1" halign="left" zPosition="3" font="weather;20" valign="top" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- BoxSet ButtonColors -->
-	<ePixmap position="50,660" size="600,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/1colors.png" zPosition="2" alphatest="blend" />
-	<widget name="lab28b" position="100,668" halign="left" size="248,24" zPosition="3" font="Regular;19" foregroundColor="white" backgroundColor="black" transparent="1" />
+	<!--ePixmap position="50,660" size="600,50" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/1colors.png" zPosition="2" alphatest="blend" />
+	<widget name="lab28b" position="100,668" halign="left" size="248,24" zPosition="3" font="Regular;19" foregroundColor="white" backgroundColor="black" transparent="1" /-->
+	<ePixmap position="81,659" size="25,25" pixmap="skin_default/buttons/button_red.png" zPosition="2" alphatest="blend" />
+	<widget name="Key_Red" position="104,657" halign="left" size="248,22" shadowColor="#00000000" shadowOffset="2,1" zPosition="2" font="weather;20" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
+        <ePixmap position="81,680" size="25,25" pixmap="skin_default/buttons/button_green.png" zPosition="2" alphatest="blend" />
+	<widget name="Key_Green" position="104,677" halign="left" size="248,22" shadowColor="#00000000" shadowOffset="2,1" zPosition="2" font="weather;20" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 </screen>
