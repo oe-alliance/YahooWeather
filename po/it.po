@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: YahooWeather\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-12 13:50+0200\n"
-"PO-Revision-Date: 2014-12-14 16:24+0100\n"
+"PO-Revision-Date: 2014-12-25 21:15+0100\n"
 "Last-Translator: matrix64\n"
 "Language-Team: \n"
 "Language: it_IT\n"
@@ -17,9 +17,6 @@ msgstr ""
 
 msgid "5 Day Weather Forecast"
 msgstr "5 Giorni di previsioni meteo"
-
-msgid "Wind"
-msgstr "Vento"
 
 msgid "AM Clouds/PM Sun"
 msgstr "AM Nuvole/PM Sole"
@@ -36,6 +33,9 @@ msgstr "AM Acquazzoni"
 msgid "AM Showers/Wind"
 msgstr "AM Acquazzoni/Vento"
 
+msgid "AM Snow"
+msgstr "AM Neve"
+
 msgid "AM Snow Showers"
 msgstr "AM Nevicate"
 
@@ -46,7 +46,7 @@ msgid "Change city"
 msgstr "Cambia città"
 
 msgid "Clear"
-msgstr "Chiaro"
+msgstr "Sereno "
 
 msgid "Cloudy"
 msgstr "Nuvoloso"
@@ -61,7 +61,7 @@ msgid "East"
 msgstr "Est"
 
 msgid "Fair"
-msgstr "Buono"
+msgstr "Bel tempo"
 
 msgid "Fog"
 msgstr "Nebbia"
@@ -94,19 +94,19 @@ msgid "Longitude :"
 msgstr "longitudine   :"
 
 msgid "Mostly Clear"
-msgstr "Poco sereno"
+msgstr "Prvalentemente sereno"
 
 msgid "Mostly Cloudy"
-msgstr "Poco nuvoloso"
+msgstr "Prevalentemente nuvoloso"
 
 msgid "Mostly Sunny"
-msgstr "poco soleggiato"
+msgstr "Prevalentemente soleggiato"
 
 msgid "NEast"
-msgstr "NordEst"
+msgstr "Nord/Est"
 
 msgid "NWest"
-msgstr "NordOvest"
+msgstr "Nord/Ovest"
 
 msgid "North"
 msgstr "Nord"
@@ -127,7 +127,7 @@ msgid "Partly Cloudy"
 msgstr "Parzialmente nuvoloso"
 
 msgid "Pressure   :"
-msgstr "pressione  :"
+msgstr "Pressione  :"
 
 msgid "Rain"
 msgstr "Pioggia"
@@ -139,10 +139,10 @@ msgid "Region   :"
 msgstr "Regione   :"
 
 msgid "SEast"
-msgstr "SudEst"
+msgstr "Sud/Est"
 
 msgid "SWest"
-msgstr "SudOvest"
+msgstr "Sud/Ovest"
 
 msgid "Scattered Thunderstorms"
 msgstr "Temporali sparsi"
@@ -150,8 +150,8 @@ msgstr "Temporali sparsi"
 msgid "Showers"
 msgstr "Aquazzoni"
 
-msgid "Showers/Early"
-msgstr "Possibili/acquazzoni"
+msgid "Showers Early"
+msgstr "Possibili acquazzoni"
 
 msgid "Showers/Wind"
 msgstr "Acquazzoni/Vento"
@@ -169,16 +169,19 @@ msgid "Sunny"
 msgstr "Soleggiato"
 
 msgid "Sunrise    :"
-msgstr "Alba       :"
+msgstr "Alba         :"
 
 msgid "Sunset     :"
-msgstr "tramonto   :"
+msgstr "Tramonto  :"
 
 msgid "Thunderstorms"
 msgstr "Temporali"
 
 msgid "Visibility :"
-msgstr "Visibilità :"
+msgstr "Visibilità   :"
+
+msgid "Wind"
+msgstr "Vento"
 
 msgid "West"
 msgstr "Ovest"

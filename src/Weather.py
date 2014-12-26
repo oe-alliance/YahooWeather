@@ -512,6 +512,8 @@ class MeteoMain(Screen):
             return _('PM Light Rain')
         elif name == 'AM Light Rain':
             return _('AM Light Rain')
+        elif name == 'Heavy Snow':
+            return _('Heavy Snow')
         else:
             return name
             

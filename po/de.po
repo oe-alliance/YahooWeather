@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: YahooWeather\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-12-12 13:50+0200\n"
-"PO-Revision-Date: 2014-12-17 18:55+0100\n"
+"PO-Revision-Date: 2014-12-26 16:50+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -26,6 +26,9 @@ msgstr "5 Tage Wettervorhersage"
 
 msgid "Change city"
 msgstr "Suche Stadt"
+
+msgid "Change skin"
+msgstr "Skin wechseln"
 
 msgid "Yahoo Weather Location:"
 msgstr "Yahoo Wetter Ort:"
@@ -242,6 +245,36 @@ msgstr "abends Regenschauer/windig"
 
 msgid "Light Rain Late"
 msgstr "leichter Regen/spÃ¤ter"
+
+msgid "Ice to Rain/Wind"
+msgstr "Eisregen/Wind"
+
+msgid "PM Rain/Snow Showers"
+msgstr "abends Regen/Schneeschauer"
+
+msgid "AM Rain/Snow Showers"
+msgstr "morgens Regen/Schneeschauer"
+
+msgid "AM Rain"
+msgstr "mogens Regen"
+
+msgid "PM Rain"
+msgstr "abends Regen"
+
+msgid "Drizzle/Windy"
+msgstr "Nieselregen/windig"
+
+msgid "Partly Cloudy/Wind"
+msgstr "teilweise bewÃ¶lkt/Wind"
+
+msgid "PM Light Rain"
+msgstr "abends leichter Regen"
+
+msgid "AM Light Rain"
+msgstr "morgens leichter Regen"
+
+msgid "Heavy Snow"
+msgstr "starker Schneefall"
 
 msgid "Exit"
 msgstr "beenden"
