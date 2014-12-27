@@ -249,9 +249,6 @@ msgstr "leichter Regen/spÃ¤ter"
 msgid "Ice to Rain/Wind"
 msgstr "Eisregen/Wind"
 
-msgid "PM Rain/Snow Showers"
-msgstr "abends Regen/Schneeschauer"
-
 msgid "PM Rain"
 msgstr "abends Regen"
 
