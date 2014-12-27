@@ -252,12 +252,6 @@ msgstr "Eisregen/Wind"
 msgid "PM Rain/Snow Showers"
 msgstr "abends Regen/Schneeschauer"
 
-msgid "AM Rain/Snow Showers"
-msgstr "morgens Regen/Schneeschauer"
-
-msgid "AM Rain"
-msgstr "mogens Regen"
-
 msgid "PM Rain"
 msgstr "abends Regen"
 
