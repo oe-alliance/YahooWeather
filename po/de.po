@@ -40,7 +40,7 @@ msgid "Sunny"
 msgstr "sonnig"
 
 msgid "Partly Cloudy"
-msgstr "teilweise bewÃ¶lkt"
+msgstr "teilweise bewölkt"
 
 msgid "PM Showers"
 msgstr "PM Regenschauer"
@@ -52,13 +52,13 @@ msgid "Showers"
 msgstr "Regenschauer"
 
 msgid "Cloudy/Wind"
-msgstr "bewÃ¶lkt/windig"
+msgstr "bewölkt/windig"
 
 msgid "Mostly Cloudy"
-msgstr "meist bewÃ¶lkt"
+msgstr "meist bewölkt"
 
 msgid "Cloudy"
-msgstr "bewÃ¶lkt"
+msgstr "bewölkt"
 
 msgid "Showers/Wind Early"
 msgstr "Regenschauer/windig"
@@ -160,7 +160,7 @@ msgid "Latitude :"
 msgstr "Br-Grad  :"
 
 msgid "Longitude :"
-msgstr "LÃ¤-Grad   :"
+msgstr "Lä-Grad   :"
 
 msgid "Country   :"
 msgstr "Land        :"
@@ -175,16 +175,16 @@ msgid "East"
 msgstr "Osten"
 
 msgid "SEast"
-msgstr "SÃ¼dosten"
+msgstr "Südosten"
 
 msgid "South"
-msgstr "SÃ¼den"
+msgstr "Süden"
 
 msgid "West"
 msgstr "Westen"
 
 msgid "SWest"
-msgstr "SÃ¼dwest"
+msgstr "Südwest"
 
 msgid "NWest"
 msgstr "Nordwest"
@@ -220,7 +220,7 @@ msgid "Snow Showers/Wind"
 msgstr "Schneeschauer/Wind"
 
 msgid "Rain/Snow Early"
-msgstr "frÃ¼hzeitig Schnee/Regen"
+msgstr "frühzeitig Schnee/Regen"
 
 msgid "PM Rain/Snow"
 msgstr "abends Regen/Schnee"
@@ -244,7 +244,7 @@ msgid "PM Showers/Wind"
 msgstr "abends Regenschauer/windig"
 
 msgid "Light Rain Late"
-msgstr "leichter Regen/spÃ¤ter"
+msgstr "leichter Regen/später"
 
 msgid "Ice to Rain/Wind"
 msgstr "Eisregen/Wind"
@@ -256,7 +256,7 @@ msgid "Drizzle/Windy"
 msgstr "Nieselregen/windig"
 
 msgid "Partly Cloudy/Wind"
-msgstr "teilweise bewÃ¶lkt/Wind"
+msgstr "teilweise bewölkt/Wind"
 
 msgid "PM Light Rain"
 msgstr "abends leichter Regen"
