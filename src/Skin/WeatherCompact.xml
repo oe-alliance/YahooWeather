@@ -62,14 +62,14 @@
 	
         <widget name="lab19b" position="38,354" halign="left" size="45,16" zPosition="1" font="Regular; 15" backgroundColor="#000000" transparent="1" />
 
-        <eLabel text="/" render="Label" position="84,354" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
+        <eLabel text="/" position="84,354" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 2Day Temp Low -->
 	
 	<widget name="lab20b" position="104,354" halign="left" size="45,16" zPosition="1" font="Regular; 15" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 2Day Date -->
-        <widget name="daydate1" position="201,333" valign="center" halign="center" size="70,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+        <widget name="daydate1" position="201,333" valign="center" halign="center" size="70,30" zPosition="1" font="Regular;15" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 3Day Pic -->
 	<widget name="3lab22" position="279,414" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
@@ -83,14 +83,14 @@
 	<!-- ForeCast 3Day Temp Heigh -->
 	
 	<widget name="3lab19b" position="38,432" halign="left" size="45,16" zPosition="1" font="Regular; 15" backgroundColor="#000000" transparent="1" />
-        <eLabel text="/" render="Label" position="84,432" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
+        <eLabel text="/" position="84,432" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 3Day Temp Low -->
 	
 	<widget name="3lab20b" position="104,432" halign="left" size="45,16" zPosition="1" font="Regular; 15" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 3Day Date -->
-	<widget name="daydate2" position="201,414" valign="center" halign="center" size="70,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="daydate2" position="201,414" valign="center" halign="center" size="70,30" zPosition="1" font="Regular;15" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 4Day Pic -->
 	<widget name="4lab22" position="279,494" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
@@ -104,13 +104,13 @@
 	<!-- ForeCast 4Day Temp Heigh -->
 	
 	<widget name="4lab19b" position="38,512" halign="left" size="45,16" zPosition="1" font="Regular; 15" backgroundColor="#000000" transparent="1" />
-        <eLabel text="/" render="Label" position="84,512" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
+        <eLabel text="/" position="84,512" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
 	<!-- ForeCast 4Day Temp Low -->
 	
 	<widget name="4lab20b" position="104,512" halign="left" size="45,16" zPosition="1" font="Regular; 15" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 4Day Date -->
-	<widget name="daydate3" position="201,491" valign="center" halign="center" size="70,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="daydate3" position="201,491" valign="center" halign="center" size="70,30" zPosition="1" font="Regular;15" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 5Day Pic -->
 	<widget name="5lab22" position="280,573" size="80,80" zPosition="1" alphatest="blend" transparent="1" />
@@ -124,13 +124,13 @@
 	<!-- ForeCast 5Day Temp Heigh -->
 	
 	<widget name="5lab19b" position="38,593" halign="left" size="45,16" zPosition="1" font="Regular; 15" backgroundColor="#000000" transparent="1" />
-        <eLabel text="/" render="Label" position="84,593" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
+        <eLabel text="/" position="84,593" halign="left" size="9,16" zPosition="1" font="Regular; 17" backgroundColor="#000000" transparent="1" />
 	<!-- ForeCast 5Day Temp Low -->
 	
 	<widget name="5lab20b" position="104,593" halign="left" size="45,16" zPosition="1" font="Regular; 15" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 5Day Date -->
-	<widget name="daydate4" position="201,572" valign="center" halign="center" size="70,20" zPosition="1" font="weather;20" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="daydate4" position="201,572" valign="center" halign="center" size="70,30" zPosition="1" font="Regular;15" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast City -->
 	<widget name="lab23" position="676,726" halign="center" size="540,40" zPosition="1" font="weather;28" foregroundColor="#00e5b243" backgroundColor="black" transparent="1" />
