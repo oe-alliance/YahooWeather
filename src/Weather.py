@@ -14,6 +14,7 @@ from urllib2 import Request, urlopen, URLError, HTTPError
 from xml.dom import minidom, Node
 from enigma import loadPic, eTimer, gFont
 from Components.config import config, ConfigSubsection, ConfigYesNo
+from time import strftime
 
 config.plugins.YahooWeather = ConfigSubsection()
 config.plugins.YahooWeather.compactskin = ConfigYesNo(default=True)
@@ -328,6 +329,14 @@ class MeteoMain(Screen):
                 png = loadPic(myicon, 250, 30, 0, 0, 0, 0)
                 self['lab28'].instance.setPixmap(png)
                 self['lab28a'].setText(':')
+                
+                #check current day#
+                checkday = (str(weather_data['forecasts'][0]['day']))
+                currentday = strftime("%a")
+                
+                if not currentday == checkday:
+                	return self.startConnection()
+                
             else:
                 maintext = 'Error getting XML document!'
 
