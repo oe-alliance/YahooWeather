@@ -15,6 +15,561 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ../src\n"
 
+msgid "AM Clouds/PM Sun"
+msgstr "vorm. bewölkt/nachm. sonnig"
+
+msgid "AM Drizzle"
+msgstr "vormittags Nieselregen"
+
+msgid "AM Drizzle/Wind"
+msgstr "vorm. Nieselregen/Wind"
+
+msgid "AM Fog/PM Clouds"
+msgstr "vorm. Nebel/nachm. bewölkt"
+
+msgid "AM Fog/PM Sun"
+msgstr "vorm. Nebel/nachm. sonnig"
+
+msgid "AM Ice"
+msgstr "vormittags Eis"
+
+msgid "AM Light Rain"
+msgstr "vormittags leichter Regen"
+
+msgid "AM Light Rain/Wind"
+msgstr "vorm. leichter Regen/Wind"
+
+msgid "AM Light Snow"
+msgstr "vormittags leichter Schneefall"
+
+msgid "AM Rain"
+msgstr "vormittags Regen"
+
+msgid "AM Rain/Snow Showers"
+msgstr "vorm. Regen/Schneeschauer"
+
+msgid "AM Rain/Snow"
+msgstr "vormittags Regen/Schnee"
+
+msgid "AM Rain/Snow/Wind"
+msgstr "vorm. Regen/Schnee/Wind"
+
+msgid "AM Rain/Wind"
+msgstr "vormittags Regen/Wind"
+
+msgid "AM Showers"
+msgstr "vormittags Schauer"
+
+msgid "AM Showers/Wind"
+msgstr "vormittags Schauer/Wind"
+
+msgid "AM Snow Showers"
+msgstr "vormittags Schneeschauer"
+
+msgid "AM Snow"
+msgstr "vormittags Schnee"
+
+msgid "AM Thundershowers"
+msgstr "vormittags Gewitterschauer"
+
+msgid "Blowing Snow"
+msgstr "Schneetreiben"
+
+msgid "Clear"
+msgstr "klar"
+
+msgid "Clear/Windy"
+msgstr "klar/windig"
+
+msgid "Clouds Early/Clearing Late"
+msgstr "anfangs Wolken/später klar"
+
+msgid "Cloudy"
+msgstr "bewölkt"
+
+msgid "Cloudy/Wind"
+msgstr "bewölkt/Wind"
+
+msgid "Cloudy/Windy"
+msgstr "wolkig/windig"
+
+msgid "Drifting Snow"
+msgstr "Schneetreiben"
+
+msgid "Drifting Snow/Windy"
+msgstr "Schneetreiben/windig"
+
+msgid "Drizzle Early"
+msgstr "anfangs Nieselregen"
+
+msgid "Drizzle Late"
+msgstr "später Nieselregen"
+
+msgid "Drizzle"
+msgstr "Nieselregen"
+
+msgid "Drizzle/Fog"
+msgstr "Nieselregen/Nebel"
+
+msgid "Drizzle/Wind"
+msgstr "Nieselregen/Wind"
+
+msgid "Drizzle/Windy"
+msgstr "Nieselregen/windig"
+
+msgid "Fair"
+msgstr "heiter"
+
+msgid "Fair/Windy"
+msgstr "heiter/windig"
+
+msgid "Few Showers"
+msgstr "vereinzelte Schauer"
+
+msgid "Few Showers/Wind"
+msgstr "vereinzelte Schauer/Wind"
+
+msgid "Few Snow Showers"
+msgstr "vereinzelt Schneeschauer"
+
+msgid "Fog Early/Clouds Late"
+msgstr "anfangs Nebel, später Wolken"
+
+msgid "Fog"
+msgstr "Nebel"
+
+msgid "Fog Late"
+msgstr "später neblig"
+
+msgid "Fog/Windy"
+msgstr "Nebel/windig"
+
+msgid "Foggy"
+msgstr "neblig"
+
+msgid "Freezing Drizzle"
+msgstr "gefrierender Nieselregen"
+
+msgid "Freezing Drizzle/Windy"
+msgstr "gefrierender Nieselregen/windig"
+
+msgid "Freezing Rain"
+msgstr "gefrierender Regen"
+
+msgid "Haze"
+msgstr "Dunst"
+
+msgid "Heavy Drizzle"
+msgstr "starker Nieselregen"
+
+msgid "Heavy Rain Shower"
+msgstr "Starker Regenschauer"
+
+msgid "Heavy Rain"
+msgstr "starker Regen"
+
+msgid "Heavy Rain/Wind"
+msgstr "starker Regen/Wind"
+
+msgid "Heavy Rain/Windy"
+msgstr "starker Regen/windig"
+
+msgid "Heavy Snow Shower"
+msgstr "starker Schneeschauer"
+
+msgid "Heavy Snow"
+msgstr "starker Schneefall"
+
+msgid "Heavy Snow/Wind"
+msgstr "starker Schneefall/Wind"
+
+msgid "Heavy Thunderstorm"
+msgstr "schweres Gewitter"
+
+msgid "Heavy Thunderstorm/Wind"
+msgstr "schweres Gewitter/windig"
+
+msgid "Ice Crystals"
+msgstr "Eiskristalle"
+
+msgid "Ice Late"
+msgstr "später Eis"
+
+msgid "Isolated T-storms"
+msgstr "vereinzelte Gewitter"
+
+msgid "Isolated Thunderstorm"
+msgstr "vereinzelte Gewitter"
+
+msgid "Light Drizzle"
+msgstr "leichter Nieselregen"
+
+msgid "Light Freezing Drizzle"
+msgstr "leichter gefrierender Nieselregen"
+
+msgid "Light Freezing Rain"
+msgstr "leichter gefrierender Regen"
+
+msgid "Light Freezing Rain/Fog"
+msgstr "leichter gefrierender Regen/Nebel"
+
+msgid "Light Rain Early"
+msgstr "anfangs leichter Regen"
+
+msgid "Light Rain"
+msgstr "leichter Regen"
+
+msgid "Light Rain Late"
+msgstr "später leichter Regen"
+
+msgid "Light Rain Shower"
+msgstr "leichter Regenschauer"
+
+msgid "Light Rain Shower/Fog"
+msgstr "leichter Regenschauer/Nebel"
+
+msgid "Light Rain Shower/Windy"
+msgstr "leichter Regenschauer/windig"
+
+msgid "Light Rain with Thunder"
+msgstr "leichter Regen mit Gewitter"
+
+msgid "Light Rain/Fog"
+msgstr "leichter Regen/Nebel"
+
+msgid "Light Rain/Freezing Rain"
+msgstr "leichter Regen/Gefrierender Regen"
+
+msgid "Light Rain/Wind Early"
+msgstr "anfangs leichter Regen/Wind"
+
+msgid "Light Rain/Wind Late"
+msgstr "später leichter Regen/Wind"
+
+msgid "Light Rain/Wind"
+msgstr "leichter Regen/Wind"
+
+msgid "Light Rain/Windy"
+msgstr "leichter Regen/windig"
+
+msgid "Light Sleet"
+msgstr "leichter Schneeregen"
+
+msgid "Light Snow Early"
+msgstr "anfangs leichter Schneefall"
+
+msgid "Light Snow Grains"
+msgstr "leichter Schneegriesel"
+
+msgid "Light Snow Late"
+msgstr "später leichter Schneefall"
+
+msgid "Light Snow Shower"
+msgstr "leichter Schneeschauer"
+
+msgid "Light Snow Shower/Fog"
+msgstr "leichter Schneeschauer/Nebel"
+
+msgid "Light Snow with Thunder"
+msgstr "leichter Schneefall mit Gewitter"
+
+msgid "Light Snow"
+msgstr "leichter Schneefall"
+
+msgid "Light Snow/Fog"
+msgstr "leichter Schneefall/Nebel"
+
+msgid "Light Snow/Freezing Rain"
+msgstr "leichter Schneefall/gefrierender Regen"
+
+msgid "Light Snow/Wind"
+msgstr "leichter Schneefall/Wind"
+
+msgid "Light Snow/Windy"
+msgstr "leichter Schneefall/windig"
+
+msgid "Light Snow/Windy/Fog"
+msgstr "leichter Schneefall/windig/Nebel"
+
+msgid "Mist"
+msgstr "Nebel"
+
+msgid "Mostly Clear"
+msgstr "überwiegend klar"
+
+msgid "Mostly Cloudy"
+msgstr "überwiegend bewölkt"
+
+msgid "Mostly Cloudy/Wind"
+msgstr "überwiegend bewölkt/Wind"
+
+msgid "Mostly Sunny"
+msgstr "überwiegend sonnig"
+
+msgid "Partial Fog"
+msgstr "teilweise Nebel"
+
+msgid "Partly Cloudy"
+msgstr "teilweise bewölkt"
+
+msgid "Partly Cloudy/Wind"
+msgstr "teilweise bewölkt/Wind"
+
+msgid "Patches of Fog"
+msgstr "Nebelfelder"
+
+msgid "Patches of Fog/Windy"
+msgstr "Nebelfelder/windig"
+
+msgid "PM Drizzle"
+msgstr "nachmittags Nieselregen"
+
+msgid "PM Fog"
+msgstr "nachmittags Nebel"
+
+msgid "PM Light Snow"
+msgstr "nachmittags leichter Schneefall"
+
+msgid "PM Light Rain"
+msgstr "nachmittags leichter Regen"
+
+msgid "PM Light Rain/Wind"
+msgstr "nachmittags leichter Regen/Wind"
+
+msgid "PM Light Snow/Wind"
+msgstr "nachm. leichter Schneefall/Wind"
+
+msgid "PM Rain"
+msgstr "nachmittags Regen"
+
+msgid "PM Rain/Snow Showers"
+msgstr "nachmittags Regen/Schneeschauer"
+
+msgid "PM Rain/Snow"
+msgstr "nachmittags Regen/Schnee"
+
+msgid "PM Rain/Wind"
+msgstr "nachmittags Regen/Wind"
+
+msgid "PM Showers"
+msgstr "nachmittags Schauer"
+
+msgid "PM Showers/Wind"
+msgstr "nachmittags Schauer/Wind"
+
+msgid "PM Snow Showers"
+msgstr "nachmittags Schneeschauer"
+
+msgid "PM Snow Showers/Wind"
+msgstr "nachmittags Schneeschauer/Wind"
+
+msgid "PM Snow"
+msgstr "nachmittags Schnee"
+
+msgid "PM T-storms"
+msgstr "nachmittags Gewitter"
+
+msgid "PM Thundershowers"
+msgstr "nachmittags Gewitterschauer"
+
+msgid "PM Thunderstorms"
+msgstr "nachmittags Gewitter"
+
+msgid "Rain and Snow"
+msgstr "Regen und Schnee"
+
+msgid "Rain and Snow/Windy"
+msgstr "Regen und Schnee/windig"
+
+msgid "Rain/Snow Showers/Wind"
+msgstr "Regen/Schneeschauer/Wind"
+
+msgid "Rain Early"
+msgstr "anfangs Regen"
+
+msgid "Rain Late"
+msgstr "später Regen"
+
+msgid "Rain Shower"
+msgstr "Regenschauer"
+
+msgid "Rain Shower/Windy"
+msgstr "Regenschauer/windig"
+
+msgid "Rain to Snow"
+msgstr "Regen in Schnee übergehend"
+
+msgid "Rain"
+msgstr "Regen"
+
+msgid "Rain/Snow Early"
+msgstr "anfangs Regen/Schnee"
+
+msgid "Rain/Snow Late"
+msgstr "später Regen/Schnee"
+
+msgid "Rain/Snow Showers Early"
+msgstr "anfangs Regen/Schneeschnauer"
+
+msgid "Rain/Snow Showers Late"
+msgstr "später Regen/Schneeschnauer"
+
+msgid "Rain/Snow Showers"
+msgstr "Regen/Schneeschauer"
+
+msgid "Rain/Snow"
+msgstr "Regen/Schnee"
+
+msgid "Rain/Snow/Wind"
+msgstr "Regen/Schnee/Wind"
+
+msgid "Rain/Thunder"
+msgstr "Regen/Gewitter"
+
+msgid "Rain/Wind Early"
+msgstr "anfangs Regen/Wind"
+
+msgid "Rain/Wind Late"
+msgstr "später Regen/Wind"
+
+msgid "Rain/Wind"
+msgstr "Regen/Wind"
+
+msgid "Rain/Windy"
+msgstr "später Regen/windig"
+
+msgid "Scattered Showers"
+msgstr "vereinzelte Schauer"
+
+msgid "Scattered Showers/Wind"
+msgstr "vereinzelte Schauer/Wind"
+
+msgid "Scattered Snow Showers"
+msgstr "vereinzelte Schneeschauer"
+
+msgid "Scattered Snow Showers/Wind"
+msgstr "vereinzelte Schneeschauer/Wind"
+
+msgid "Scattered T-storms"
+msgstr "vereinzelte Gewitter"
+
+msgid "Scattered Thunderstorms"
+msgstr "vereinzelte Gewitter"
+
+msgid "Shallow Fog"
+msgstr "flacher Nebel"
+
+msgid "Showers"
+msgstr "Schauer"
+
+msgid "Showers Early"
+msgstr "anfangs Schauer"
+
+msgid "Showers Late"
+msgstr "später Schauer"
+
+msgid "Showers in the Vicinity"
+msgstr "Regenfälle in der Nähe"
+
+msgid "Showers/Wind"
+msgstr "Schauer/Wind"
+
+msgid "Sleet and Freezing Rain"
+msgstr "Schneeregen und gefrierender Regen"
+
+msgid "Sleet/Windy"
+msgstr "Schneeregen/windig"
+
+msgid "Snow Grains"
+msgstr "Schneegriesel"
+
+msgid "Snow Early"
+msgstr "anfangs Schnee"
+
+msgid "Snow Late"
+msgstr "später Schnee"
+
+msgid "Snow Shower"
+msgstr "Schneeschauer"
+
+msgid "Snow Showers Early"
+msgstr "anfangs Schneeschauer"
+
+msgid "Snow Showers Late"
+msgstr "später Schneeschauer"
+
+msgid "Snow Showers"
+msgstr "Schneeschauer"
+
+msgid "Snow Showers/Wind"
+msgstr "Schneeschauer/Wind"
+
+msgid "Snow to Rain"
+msgstr "Schneeregen"
+
+msgid "Snow"
+msgstr "Schnee"
+
+msgid "Snow/Wind"
+msgstr "Schnee/Wind"
+
+msgid "Snow/Windy"
+msgstr "Schnee/windig"
+
+msgid "Squalls"
+msgstr "Böen"
+
+msgid "Sunny"
+msgstr "sonnig"
+
+msgid "Sunny/Wind"
+msgstr "sonnig/Wind"
+
+msgid "Sunny/Windy"
+msgstr "sonnig/windig"
+
+msgid "T-showers"
+msgstr "Gewitterschauer"
+
+msgid "Thunder in the Vicinity"
+msgstr "Gewitter in der Umgebung"
+
+msgid "Thunder"
+msgstr "Gewitter"
+
+msgid "Thundershowers Early"
+msgstr "anfangs Gewitterschauer"
+
+msgid "Thundershowers Late"
+msgstr "später Gewitterschauer"
+
+msgid "Thundershowers"
+msgstr "Gewitterschauer"
+
+msgid "Thunderstorm"
+msgstr "Gewitter"
+
+msgid "Thunderstorm/Windy"
+msgstr "Gewitter/windig"
+
+msgid "Thunderstorms Early"
+msgstr "anfangs Gewitter"
+
+msgid "Thunderstorms Late"
+msgstr "später Gewitter"
+
+msgid "Thunderstorms"
+msgstr "Gewitter"
+
+msgid "Unknown Precipitation"
+msgstr "unbekannter Niederschlag"
+
+msgid "Unknown"
+msgstr "unbekannt"
+
+msgid "Wintry Mix"
+msgstr "winterlicher Mix"
+
 msgid "Yahoo Weather"
 msgstr "Yahoo Wetter"
 
@@ -35,108 +590,6 @@ msgstr "Yahoo Wetter Ort:"
 
 msgid "Last Updated:"
 msgstr "Aktualisiert am"
-
-msgid "Sunny"
-msgstr "sonnig"
-
-msgid "Partly Cloudy"
-msgstr "teilweise bewölkt"
-
-msgid "PM Showers"
-msgstr "PM Regenschauer"
-
-msgid "AM Clouds/PM Sun"
-msgstr "morgens wolkig/abends sonnig"
-
-msgid "Showers"
-msgstr "Regenschauer"
-
-msgid "Cloudy/Wind"
-msgstr "bewölkt/windig"
-
-msgid "Mostly Cloudy"
-msgstr "meist bewölkt"
-
-msgid "Cloudy"
-msgstr "bewölkt"
-
-msgid "Showers/Wind Early"
-msgstr "Regenschauer/windig"
-
-msgid "AM Showers/Wind"
-msgstr "morgens Regenschauer/windig"
-
-msgid "AM Showers"
-msgstr "morgens Regenschauer"
-
-msgid "Light Rain"
-msgstr "leichter Regen"
-
-msgid "Heavy Rain"
-msgstr "starker Regen"
-
-msgid "Fair"
-msgstr "heiter"
-
-msgid "Light Rain/Wind"
-msgstr "leichter Regen/windig"
-
-msgid "Rain"
-msgstr "Regen"
-
-msgid "Mostly Sunny"
-msgstr "meist sonnig"
-
-msgid "Thunderstorms"
-msgstr "Gewitter"
-
-msgid "AM Thunderstorms"
-msgstr "morgens Gewitter"
-
-msgid "PM Thunderstorms"
-msgstr "abends Gewitter"
-
-msgid "Scattered Thunderstorms"
-msgstr "vereinzelt Gewitter"
-
-msgid "Rain/Snow"
-msgstr "Regen/Schnee"
-
-msgid "Snow"
-msgstr "Schnee"
-
-msgid "Light Snow"
-msgstr "leichter Schneefall"
-
-msgid "AM Light Snow"
-msgstr "morgens leichter Schneefall"
-
-msgid "PM Light Snow"
-msgstr "abends leichter Schneefall"
-
-msgid "Snow Showers"
-msgstr "Schneeschauer"
-
-msgid "PM Snow Showers"
-msgstr "abends Schneeschauer"
-
-msgid "AM Snow Showers"
-msgstr "morgens Schneeschauer"
-
-msgid "Fog"
-msgstr "Nebel"
-
-msgid "Foggy"
-msgstr "neblig"
-
-msgid "Mostly Clear"
-msgstr "meist klar"
-
-msgid "Clear"
-msgstr "klar"
-
-msgid "Haze"
-msgstr "Dunst"
 
 msgid "Yahoo Weather City"
 msgstr "Yahoo Wetter Stadt"
@@ -188,84 +641,6 @@ msgstr "Südwest"
 
 msgid "NWest"
 msgstr "Nordwest"
-
-msgid "Unknown"
-msgstr "unbekannt"
-
-msgid "Light Drizzle"
-msgstr "leichter Nieselregen"
-
-msgid "Drizzle"
-msgstr "Nieselregen"
-
-msgid "PM Thunderstorms/Wind"
-msgstr "abends Gewitter/Wind"
-
-msgid "AM Thunderstorms/Wind"
-msgstr "morgens Gewitter/Wind"
-
-msgid "Sunny/Wind"
-msgstr "sonnig/Wind"
-
-msgid "Fair/Windy"
-msgstr "heiter/windig"
-
-msgid "PM Light Snow/Wind"
-msgstr "abends leichter Schneefall/Wind"
-
-msgid "AM Light Snow/Wind"
-msgstr "morgens leichter Schneefall/Wind"
-
-msgid "Snow Showers/Wind"
-msgstr "Schneeschauer/Wind"
-
-msgid "Rain/Snow Early"
-msgstr "frühzeitig Schnee/Regen"
-
-msgid "PM Rain/Snow"
-msgstr "abends Regen/Schnee"
-
-msgid "AM Rain/Snow"
-msgstr "morgens Regen/Schnee"
-
-msgid "PM Rain/Snow Showers"
-msgstr "abends Regen/Schneeschauer"
-
-msgid "AM Rain/Snow Showers"
-msgstr "morgens Regen/Schneeschauer"
-
-msgid "AM Rain"
-msgstr "morgens Regen"
-
-msgid "Few Showers"
-msgstr "wenige Regenschauer"
-
-msgid "PM Showers/Wind"
-msgstr "abends Regenschauer/windig"
-
-msgid "Light Rain Late"
-msgstr "leichter Regen/später"
-
-msgid "Ice to Rain/Wind"
-msgstr "Eisregen/Wind"
-
-msgid "PM Rain"
-msgstr "abends Regen"
-
-msgid "Drizzle/Windy"
-msgstr "Nieselregen/windig"
-
-msgid "Partly Cloudy/Wind"
-msgstr "teilweise bewölkt/Wind"
-
-msgid "PM Light Rain"
-msgstr "abends leichter Regen"
-
-msgid "AM Light Rain"
-msgstr "morgens leichter Regen"
-
-msgid "Heavy Snow"
-msgstr "starker Schneefall"
 
 msgid "Exit"
 msgstr "beenden"
