@@ -585,8 +585,8 @@ msgstr "Suche Stadt"
 msgid "Change skin"
 msgstr "Skin wechseln"
 
-msgid "Yahoo Weather Location:"
-msgstr "Yahoo Wetter Ort:"
+msgid "Yahoo Weather city or zip code:"
+msgstr "Yahoo Wetter Stadt oder PLZ:"
 
 msgid "Last Updated:"
 msgstr "Aktualisiert am"
