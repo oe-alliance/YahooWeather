@@ -124,7 +124,7 @@ class WeatherSearch(Screen):
          self.close()
          
     def KeyBoard(self):
-         self.session.openWithCallback(lambda x : self.VirtualKeyBoardCallback(x),VirtualKeyBoard,title = _('Yahoo Weather Location:'), text = self.EnterLocation)
+         self.session.openWithCallback(lambda x : self.VirtualKeyBoardCallback(x),VirtualKeyBoard,title = _('Yahoo Weather city or zip code:'), text = self.EnterLocation)
                 
     def VirtualKeyBoardCallback(self, callback = None):
         if callback is not None and len(callback):
