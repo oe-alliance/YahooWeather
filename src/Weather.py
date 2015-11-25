@@ -331,11 +331,11 @@ class MeteoMain(Screen):
                 self['lab28a'].setText(':')
                 
                 #check current day#
-                checkday = (str(weather_data['forecasts'][0]['day']))
-                currentday = strftime("%a")
+        #        checkday = (str(weather_data['forecasts'][0]['day']))
+        #        currentday = strftime("%a")
                 
-                if not currentday == checkday:
-                	return self.startConnection()
+        #        if not currentday == checkday:
+        #        	return self.startConnection()
                 
             else:
                 maintext = 'Error getting XML document!'
