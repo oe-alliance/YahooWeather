@@ -59,7 +59,7 @@
 	<widget name="lab21" position="38,365" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 2Day Temp Heigh -->
-        <widget name="lab19b" shadowColor="#00000000" shadowOffset="2,1" position="180,346" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+        <widget name="lab19b" shadowColor="#00000000" shadowOffset="2,1" position="180,346" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
         <eLabel text="|" foregroundColor="#ffffff" position="224,344" halign="left" size="3,20" zPosition="1" font="Regular;18" backgroundColor="#000000" transparent="1" />
         
 	<!-- ForeCast 2Day Temp Low -->	
@@ -78,7 +78,7 @@
 	<widget name="3lab21" position="38,443" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 3Day Temp Heigh -->	
-	<widget name="3lab19b" position="180,424" shadowColor="#00000000" shadowOffset="2,1" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="3lab19b" position="180,424" shadowColor="#00000000" shadowOffset="2,1" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
         <eLabel text="|" foregroundColor="#ffffff" position="224,422" halign="left" size="3,20" zPosition="1" font="Regular;18" backgroundColor="#000000" transparent="1" />
 
         <!-- ForeCast 3 Day Temp Low -->
@@ -97,7 +97,7 @@
 	<widget name="4lab21" position="38,523" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 4Day Temp Heigh -->	
-	<widget name="4lab19b" position="180,504" shadowColor="#00000000" shadowOffset="2,1" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="4lab19b" position="180,504" shadowColor="#00000000" shadowOffset="2,1" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
         <eLabel text="|" foregroundColor="#ffffff" position="224,502" halign="left" size="3,20" zPosition="1" font="Regular;18" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 4Day Temp Low -->	
@@ -116,7 +116,7 @@
 	<widget name="5lab21" position="38,604" valign="center" halign="left" size="233,42" zPosition="1" font="Regular;16" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 5Day Temp Heigh -->	
-	<widget name="5lab19b" position="180,585" shadowColor="#00000000" shadowOffset="2,1" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#00bbd6e0" backgroundColor="#000000" transparent="1" />
+	<widget name="5lab19b" position="180,585" shadowColor="#00000000" shadowOffset="2,1" halign="left" size="45,16" zPosition="1" font="Regular;17" foregroundColor="#ffffff" backgroundColor="#000000" transparent="1" />
         <eLabel text="|" foregroundColor="#ffffff" position="224,583" halign="left" size="3,20" zPosition="1" font="Regular;18" backgroundColor="#000000" transparent="1" />
 
 	<!-- ForeCast 5Day Temp Low -->
