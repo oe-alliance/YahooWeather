@@ -25,12 +25,15 @@ except:
     pass
 	
 import gettext
+
+
 def _(txt):
 	t = gettext.dgettext("YahooWeather", txt)
 	if t == txt:
 		t = gettext.gettext(txt)
 	return t
 	
+
 class MeteoMain(Screen):
  
     def __init__(self, session):

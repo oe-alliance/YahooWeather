@@ -14,6 +14,7 @@ except ImportError:
 		pass
 	no_comments = True
 
+
 class parseXML(ContentHandler, LexicalHandler):
 	def __init__(self, attrlist):
 		self.isPointsElement, self.isReboundsElement = 0, 0
@@ -31,6 +32,7 @@ class parseXML(ContentHandler, LexicalHandler):
 				self.last_comment = None
 			except KeyError:
 				pass
+
 
 parser = make_parser()
 

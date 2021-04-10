@@ -9,6 +9,7 @@ from Components.MenuList import MenuList
 import os
 from . import _
 
+
 def uniq(inlist): 
     uniques = []
     for item in inlist:
@@ -16,6 +17,7 @@ def uniq(inlist):
             uniques.append(item)
     return uniques
 	
+
 def get_weather_from_yahoo(location):
     def Filtro(text):
          text = text.replace('{', '').replace('}', '').replace(']', '').replace('[', '').replace(',', '')
@@ -53,6 +55,7 @@ def get_weather_from_yahoo(location):
                list.append((Citta + ' (' + Provincia + ')' + '   ' + Regione + '   ' + Nazione, Codice))
     return list
 		 
+
 class WeatherList(Screen):       
     def __init__(self, session, Location):     
         self.session = session	
@@ -109,6 +112,7 @@ class WeatherList(Screen):
     def Cancel(self):
          self.close()
          
+
 class WeatherSearch(Screen):        
     def __init__(self, session):     
         self.session = session

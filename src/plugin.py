@@ -4,8 +4,10 @@ from Weather import *
 from Search_Id import *
 from enigma import getDesktop
 
+
 def main(session, **kwargs):
 	session.open(MeteoMain)
+
 
 def Plugins(**kwargs):
 	screenwidth = getDesktop(0).size().width()
