@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-# Weather by m43c0 
+# Weather by m43c0
 # Last modified 28-10-2013
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
@@ -20,34 +20,37 @@ config.plugins.YahooWeather = ConfigSubsection()
 config.plugins.YahooWeather.compactskin = ConfigYesNo(default=True)
 
 try:
-    from Search_Id import *	
+    from Search_Id import *
 except:
     pass
-	
+
 import gettext
+
+
 def _(txt):
 	t = gettext.dgettext("YahooWeather", txt)
 	if t == txt:
 		t = gettext.gettext(txt)
 	return t
-	
+
+
 class MeteoMain(Screen):
- 
+
     def __init__(self, session):
         from enigma import addFont
         addFont('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Font/weather.ttf', 'weather', 87, 1)
         if config.plugins.YahooWeather.compactskin.value == True:
-                path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/WeatherCompact.xml" 
+                path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/WeatherCompact.xml"
                 with open(path, "r") as f:
 		        self.skin = f.read()
 		        f.close()
         else:
-                path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/Weather.xml" 
+                path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/Weather.xml"
                 with open(path, "r") as f:
 		        self.skin = f.read()
-		        f.close() 	         	
+		        f.close()
         Screen.__init__(self, session)
-        self.skinName = ["YahooWeather"]		
+        self.skinName = ["YahooWeather"]
         self['lab1'] = Label(_('Retrieving data ...'))
         self['5day'] = Label(_('5 Day Weather Forecast'))
         self['lab1b'] = Label('')
@@ -158,7 +161,7 @@ class MeteoMain(Screen):
             dom = minidom.parse(handler)
             handler.close()
             maintext = ''
-            tmptext = ''	
+            tmptext = ''
             if dom:
                 weather_data = {}
                 weather_data['title'] = dom.getElementsByTagName('title')[0].firstChild.data
@@ -192,7 +195,7 @@ class MeteoMain(Screen):
                 self['lab2'].setText(city)
                 txt = str(weather_data['condition']['date'])
                 parts = txt.strip().split(' ')
-                txt = _('Last Updated:')+' %s %s %s %s %s' % (parts[1],
+                txt = _('Last Updated:') + ' %s %s %s %s %s' % (parts[1],
                  parts[2],
                  parts[3],
                  parts[4],
@@ -226,7 +229,7 @@ class MeteoMain(Screen):
                 self['lab11b'].setText(txt)
                 self['lab12'].setText(_('Wind       :'))
                 direction = self.wind_direction(str(weather_data['wind']['direction']))
-                txt = _('Wind') + ' ' + _('From')+' %s : %s kmh' % (direction, str(weather_data['wind']['speed']))
+                txt = _('Wind') + ' ' + _('From') + ' %s : %s kmh' % (direction, str(weather_data['wind']['speed']))
                 self['lab12b'].setText(txt)
                 txt = self.extend_day(str(weather_data['forecasts'][0]['day']))
                 self['lab13'].setText(txt)
@@ -329,14 +332,14 @@ class MeteoMain(Screen):
                 png = loadPic(myicon, 250, 30, 0, 0, 0, 0)
                 self['lab28'].instance.setPixmap(png)
                 self['lab28a'].setText(':')
-                
+
                 #check current day#
         #        checkday = (str(weather_data['forecasts'][0]['day']))
         #        currentday = strftime("%a")
-                
+
         #        if not currentday == checkday:
         #        	return self.startConnection()
-                
+
             else:
                 maintext = 'Error getting XML document!'
 
@@ -393,7 +396,7 @@ class MeteoMain(Screen):
             return _('Sunday')
         else:
             return day
-            
+
     def extend_name(self, name):
         if name == 'AM Clouds/PM Sun':
             return _('AM Clouds/PM Sun')
@@ -769,7 +772,7 @@ class MeteoMain(Screen):
             pass
         else:
             url = localfile.replace('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Icon', 'http://www.mysite.net/weapic/weabig')
-            handler = urlopen(url)	
+            handler = urlopen(url)
             if handler:
                 content = handler.read()
                 fileout = open(localfile, 'wb')
@@ -781,9 +784,9 @@ class MeteoMain(Screen):
     def get_Url(self):
         url = 'https://query.yahooapis.com/v1/public/yql?q=select%20%2A%20from%20weather.forecast%20where%20woeid='
         url2 = '721943'
-        if fileExists("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id"):	
-             url2=open("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id").read()				
-        url = url+url2+'%20AND%20u=%22c%22'
+        if fileExists("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id"):
+             url2 = open("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id").read()
+        url = url + url2 + '%20AND%20u=%22c%22'
         return url
 
     def delTimer(self):
@@ -791,7 +794,7 @@ class MeteoMain(Screen):
 
     def key_red(self):
         self.session.open(WeatherSearch)
-        
+
     def key_green(self):
         if config.plugins.YahooWeather.compactskin.value == True:
             config.plugins.YahooWeather.compactskin.setValue(False)
