@@ -25,11 +25,11 @@ def get_weather_from_yahoo(location):
     handler = urllib2.urlopen(url)
     dom = handler.read()	
     handler.close()
-    list =[]	
+    list = []	
     xx = Filtro(dom).split('"k":')
     for x in xx:
         if x.find('&c=') != -1:
-               String = '%ct='+x
+               String = '%ct=' + x
                try:		   
                      Citta = String.split('%ct=')[1].split('"d"')[0].replace('"','').strip()
                except:
@@ -47,10 +47,10 @@ def get_weather_from_yahoo(location):
                except:
                      pass		   
                try:		   
-                     Codice = 	String.split('&woeid=')[1].split('&lon=')[0].replace('"','').strip()
+                     Codice = String.split('&woeid=')[1].split('&lon=')[0].replace('"','').strip()
                except:
                      pass		   		   
-               list.append((Citta+' ('+Provincia+')'+'   '+Regione+'   '+Nazione,Codice))
+               list.append((Citta + ' (' + Provincia + ')' + '   ' + Regione + '   ' + Nazione,Codice))
     return list
 		 
 class WeatherList(Screen):       
@@ -66,7 +66,7 @@ class WeatherList(Screen):
         self["Key_Red"] = Label(_("Exit"))		
         self["Key_Green"] = Label(_("Save"))
         self['titleheader'] = Label(_('Yahoo Weather')) 		
-        self.Location =  Location		
+        self.Location = Location		
         self.List = []		
         self["myMenu"] = MenuList(self.List)	
         self.MenuStart()	
@@ -79,7 +79,7 @@ class WeatherList(Screen):
         }, -1)
                 
     def MenuStart(self): 
-        self.List =[]			
+        self.List = []			
         try:						  
             for x in get_weather_from_yahoo(self.Location):					
                 if x[1] != '**':

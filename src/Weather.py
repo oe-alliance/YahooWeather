@@ -192,7 +192,7 @@ class MeteoMain(Screen):
                 self['lab2'].setText(city)
                 txt = str(weather_data['condition']['date'])
                 parts = txt.strip().split(' ')
-                txt = _('Last Updated:')+' %s %s %s %s %s' % (parts[1],
+                txt = _('Last Updated:') + ' %s %s %s %s %s' % (parts[1],
                  parts[2],
                  parts[3],
                  parts[4],
@@ -226,7 +226,7 @@ class MeteoMain(Screen):
                 self['lab11b'].setText(txt)
                 self['lab12'].setText(_('Wind       :'))
                 direction = self.wind_direction(str(weather_data['wind']['direction']))
-                txt = _('Wind') + ' ' + _('From')+' %s : %s kmh' % (direction, str(weather_data['wind']['speed']))
+                txt = _('Wind') + ' ' + _('From') + ' %s : %s kmh' % (direction, str(weather_data['wind']['speed']))
                 self['lab12b'].setText(txt)
                 txt = self.extend_day(str(weather_data['forecasts'][0]['day']))
                 self['lab13'].setText(txt)
@@ -782,8 +782,8 @@ class MeteoMain(Screen):
         url = 'https://query.yahooapis.com/v1/public/yql?q=select%20%2A%20from%20weather.forecast%20where%20woeid='
         url2 = '721943'
         if fileExists("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id"):	
-             url2=open("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id").read()				
-        url = url+url2+'%20AND%20u=%22c%22'
+             url2 = open("/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id").read()				
+        url = url + url2 + '%20AND%20u=%22c%22'
         return url
 
     def delTimer(self):
