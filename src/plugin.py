@@ -16,4 +16,3 @@ def Plugins(**kwargs):
 	else:
 		list = [PluginDescriptor(name=_("Yahoo Weather"), description=_("5 Day Weather Forecast"), where=[PluginDescriptor.WHERE_PLUGINMENU, PluginDescriptor.WHERE_EXTENSIONSMENU], icon="plugin.png", fnc=main)]
 	return list
-
