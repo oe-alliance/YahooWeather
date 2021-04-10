@@ -18,10 +18,10 @@ def uniq(inlist):
 	
 def get_weather_from_yahoo(location):
     def Filtro(text):
-         text = text.replace('{','').replace('}','').replace(']','').replace('[','').replace(',','')
+         text = text.replace('{', '').replace('}', '').replace(']', '').replace('[', '').replace(',', '')
          return text
     Citta = Nazione = Regione = Provincia = Codice = '**'	
-    url = "http://sugg.us.search.yahoo.net/gossip-gl-location/?appid=weather&output=sd1&lc=it-IT&command=%s" % (location.replace(' ','%20'))
+    url = "http://sugg.us.search.yahoo.net/gossip-gl-location/?appid=weather&output=sd1&lc=it-IT&command=%s" % (location.replace(' ', '%20'))
     handler = urllib2.urlopen(url)
     dom = handler.read()	
     handler.close()
@@ -31,26 +31,26 @@ def get_weather_from_yahoo(location):
         if x.find('&c=') != -1:
                String = '%ct=' + x
                try:		   
-                     Citta = String.split('%ct=')[1].split('"d"')[0].replace('"','').strip()
+                     Citta = String.split('%ct=')[1].split('"d"')[0].replace('"', '').strip()
                except:
                      pass		   
                try:		   
-                     Nazione = String.split('&c=')[1].split('&sc=')[0].replace('"','').strip()
+                     Nazione = String.split('&c=')[1].split('&sc=')[0].replace('"', '').strip()
                except:
                      pass		   
                try:		   
-                     Regione = String.split('&s=')[1].split('&c=')[0].replace('"','').strip()
+                     Regione = String.split('&s=')[1].split('&c=')[0].replace('"', '').strip()
                except:
                      pass		   
                try:		   
-                     Provincia = String.split('&sc=')[1].replace('"','').strip()	
+                     Provincia = String.split('&sc=')[1].replace('"', '').strip()	
                except:
                      pass		   
                try:		   
-                     Codice = String.split('&woeid=')[1].split('&lon=')[0].replace('"','').strip()
+                     Codice = String.split('&woeid=')[1].split('&lon=')[0].replace('"', '').strip()
                except:
                      pass		   		   
-               list.append((Citta + ' (' + Provincia + ')' + '   ' + Regione + '   ' + Nazione,Codice))
+               list.append((Citta + ' (' + Provincia + ')' + '   ' + Regione + '   ' + Nazione, Codice))
     return list
 		 
 class WeatherList(Screen):       
@@ -70,7 +70,7 @@ class WeatherList(Screen):
         self.List = []		
         self["myMenu"] = MenuList(self.List)	
         self.MenuStart()	
-        self["myActionMap"] = ActionMap(["SetupActions","ColorActions"],
+        self["myActionMap"] = ActionMap(["SetupActions", "ColorActions"],
         {
         "ok": self.go,
         "green": self.go,		
@@ -83,7 +83,7 @@ class WeatherList(Screen):
         try:						  
             for x in get_weather_from_yahoo(self.Location):					
                 if x[1] != '**':
-                    self.List.append((x[0],x[1]))	
+                    self.List.append((x[0], x[1]))	
         except:
             pass                   
         self.List.sort(key=lambda t: tuple(t[0][0].lower()))	
@@ -97,10 +97,10 @@ class WeatherList(Screen):
             Location_id = False      
             Region_id = False  			
        if Location_id and Region_id:	   
-            iLocation = open('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id','w')
+            iLocation = open('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Location_id', 'w')
             iLocation.write(str(Location_id))
             iLocation.close()
-            iRegion = open('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Region_id','w')
+            iRegion = open('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Config/Region_id', 'w')
             iRegion.write(str(Region_id))
             iRegion.close()			
             os.system("rm /tmp/yweather.xml")
@@ -116,19 +116,19 @@ class WeatherSearch(Screen):
         self.iTimer = eTimer()
         self.iTimer.stop()	 
         self.iTimer.callback.append(self.KeyBoard)
-        self.iTimer.start(100,True)		
+        self.iTimer.start(100, True)		
         Screen.__init__(self, session)		         
-        self["myActionMap"] = ActionMap(["SetupActions","ColorActions"],{"cancel": self.Cancel,"red": self.Cancel}, -1)
+        self["myActionMap"] = ActionMap(["SetupActions", "ColorActions"], {"cancel": self.Cancel, "red": self.Cancel}, -1)
                 
     def Cancel(self):
          self.close()
          
     def KeyBoard(self):
-         self.session.openWithCallback(lambda x: self.VirtualKeyBoardCallback(x),VirtualKeyBoard,title=_('Yahoo Weather city or zip code:'), text=self.EnterLocation)
+         self.session.openWithCallback(lambda x: self.VirtualKeyBoardCallback(x), VirtualKeyBoard, title=_('Yahoo Weather city or zip code:'), text=self.EnterLocation)
                 
     def VirtualKeyBoardCallback(self, callback=None):
         if callback is not None and len(callback):
             self.EnterLocation = callback
-            self.session.open(WeatherList,self.EnterLocation)
+            self.session.open(WeatherList, self.EnterLocation)
         self.close() 
         

@@ -4,7 +4,7 @@ from Weather import *
 from Search_Id import *
 from enigma import getDesktop
 
-def main(session,**kwargs):
+def main(session, **kwargs):
 	session.open(MeteoMain)
 
 def Plugins(**kwargs):
