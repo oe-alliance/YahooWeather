@@ -42,13 +42,13 @@ class MeteoMain(Screen):
         if config.plugins.YahooWeather.compactskin.value == True:
                 path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/WeatherCompact.xml"
                 with open(path, "r") as f:
-		        self.skin = f.read()
-		        f.close()
+                   self.skin = f.read()
+                   f.close()
         else:
                 path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/Weather.xml"
                 with open(path, "r") as f:
-		        self.skin = f.read()
-		        f.close()
+                    self.skin = f.read()
+                    f.close()
         Screen.__init__(self, session)
         self.skinName = ["YahooWeather"]
         self['lab1'] = Label(_('Retrieving data ...'))
