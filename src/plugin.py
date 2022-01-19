@@ -1,8 +1,7 @@
-from . import _
-from Plugins.Plugin import PluginDescriptor
-from Weather import *
-from Search_Id import *
 from enigma import getDesktop
+from Plugins.Plugin import PluginDescriptor
+from .Weather import MeteoMain
+from . import _
 
 
 def main(session, **kwargs):

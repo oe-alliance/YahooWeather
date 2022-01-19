@@ -3,26 +3,23 @@
 # Last modified 28-10-2013
 from Screens.Screen import Screen
 from Screens.MessageBox import MessageBox
-from Screens.InputBox import InputBox
 from Components.ActionMap import ActionMap
-from Components.Sources.List import List
 from Components.Label import Label
 from Components.Pixmap import Pixmap
 from Tools.Directories import fileExists
-from urllib import quote
-from urllib2 import Request, urlopen, URLError, HTTPError
+try:
+    from urllib2 import Request, urlopen, URLError, HTTPError
+except ImportError:
+    from urllib.request import Request, urlopen, URLError, HTTPError
 from xml.dom import minidom, Node
-from enigma import loadPic, eTimer, gFont
+from enigma import loadPic, eTimer, addFont
 from Components.config import config, ConfigSubsection, ConfigYesNo
-from time import strftime
+# from time import strftime
 
 config.plugins.YahooWeather = ConfigSubsection()
 config.plugins.YahooWeather.compactskin = ConfigYesNo(default=True)
 
-try:
-    from Search_Id import *
-except:
-    pass
+from .Search_Id import WeatherSearch
 
 import gettext
 
@@ -37,7 +34,6 @@ def _(txt):
 class MeteoMain(Screen):
 
     def __init__(self, session):
-        from enigma import addFont
         addFont('/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Font/weather.ttf', 'weather', 87, 1)
         if config.plugins.YahooWeather.compactskin.value == True:
                 path = "/usr/lib/enigma2/python/Plugins/Extensions/YahooWeather/Skin/WeatherCompact.xml"

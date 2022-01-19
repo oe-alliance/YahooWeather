@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-import urllib2
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Components.ActionMap import ActionMap
 from enigma import eTimer
@@ -9,6 +8,10 @@ from Components.MenuList import MenuList
 import os
 from . import _
 
+try:
+    from urllib2 import urlopen
+except ImportError:
+    from urllib.request import urlopen
 
 def uniq(inlist):
     uniques = []
@@ -24,7 +27,7 @@ def get_weather_from_yahoo(location):
          return text
     Citta = Nazione = Regione = Provincia = Codice = '**'
     url = "http://sugg.us.search.yahoo.net/gossip-gl-location/?appid=weather&output=sd1&lc=it-IT&command=%s" % (location.replace(' ', '%20'))
-    handler = urllib2.urlopen(url)
+    handler = urlopen(url)
     dom = handler.read()
     handler.close()
     list = []
